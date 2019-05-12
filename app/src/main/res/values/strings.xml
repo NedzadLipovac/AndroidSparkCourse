@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Spark 1</string>
+    <string name="hintIme">Korisničko ime</string>
+    <string name="hintLozinka">Lozinka</string>
+    <string name="prijava">Prijava</string>
+    <string name="zapamti">Zapamti me</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_instagram"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/ic_launcherinstgram" />
+
+    <EditText
+        android:id="@+id/et_kor_ime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/etBackgroundColor"
+        android:hint="@string/hintIme"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/etColor" />
+
+    <EditText
+        android:id="@+id/et_lozinka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/etBackgroundColor"
+        android:hint="@string/hintLozinka"
+        android:inputType="textWebPassword"
+        android:padding="10dp"
+        android:textColor="@color/etColor" />
+
+    <CheckBox
+        android:id="@+id/cb_zapamti_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/zapamti" />
+
+    <Button
+        android:id="@+id/btn_prijava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:text="@string/prijava"
+        android:textColor="@color/colorPrimaryDark" />
+
+</LinearLayout>
